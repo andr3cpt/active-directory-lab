@@ -34,7 +34,7 @@ ___
 <summary>View Screenshot</summary>
 <br />
 <p align="center">
-  <img src="assets/03-ADDS-installation.png" alt="manual IPv4 setting" width="600" />
+  <img src="assets/03-ADDS-installation.png" alt="ADDS installation" width="600" />
 </p>
 </details>
 
@@ -46,7 +46,7 @@ ___
 <summary>View Screenshot</summary>
 <br />
 <p align="center">
-  <img src="assets/04-rename-server-DC-01.png" alt="manual IPv4 setting" width="600" />
+  <img src="assets/04-rename-server-DC-01.png" alt="server rename to DC-01" width="600" />
 </p>
 </details>
 
@@ -58,7 +58,7 @@ ___
 <summary>View Screenshot</summary>
 <br />
 <p align="center">
-  <img src="assets/05-verify-core-services.png" alt="manual IPv4 setting" width="600" />
+  <img src="assets/05-verify-core-services.png" alt="core services check" width="600" />
 </p>
 </details>
 
@@ -70,6 +70,6 @@ ___
 <summary>View Screenshot</summary>
 <br />
 <p align="center">
-  <img src="assets/06-verify-DNS-resolution.png" alt="manual IPv4 setting" width="600" />
+  <img src="assets/06-verify-DNS-resolution.png" alt="verify DNS resolution" width="600" />
 </p>
 </details>

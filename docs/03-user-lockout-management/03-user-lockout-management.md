@@ -26,7 +26,7 @@ ___
 
 ___
 
-**3. ...as well as on the clinet machine**
+**3. ...as well as on the client machine**
 
 <details>
 <summary>View Screenshot</summary>
@@ -38,7 +38,7 @@ ___
 
 ___
 
-**4. Entered password enough times to trigger the unlock for the user** `hsolo`
+**4. Entered wrong password enough times to trigger the lockout for the user** `hsolo`
 
 <details>
 <summary>View Screenshot</summary>

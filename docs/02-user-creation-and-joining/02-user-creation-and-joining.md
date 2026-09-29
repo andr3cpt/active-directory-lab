@@ -1,10 +1,10 @@
 # Module 2: User Creation and Joining
-Created users in custom OUs and joined the Windows 10 Pro VM to the `lab.local` domain.
+Create users in custom OUs and join the Windows 10 Pro VM to the `lab.local` domain.
 
 
 ## Overview
 
-**1. Set the** `TCP/IPv4` **properties on Windows 10 Pro client VM :** Assigned a static IP address (`192.168.50.20`), a Subnet mask of `255.255.255.0` and a DNS address pointing to the `DC-01` DNS resolver (`192.168.50.10`)
+**1. Set the** `TCP/IPv4` **properties on Windows 10 Pro client VM :** Assign a static IP address (`192.168.50.20`), a Subnet mask of `255.255.255.0` and a DNS address pointing to the `DC-01` DNS resolver (`192.168.50.10`)
 <details>
 <summary>View Screenshot</summary>
 <br />
@@ -15,7 +15,7 @@ Created users in custom OUs and joined the Windows 10 Pro VM to the `lab.local` 
 
 ___
 
-**2. Verified domain DNS resolution using** `nslookup lab.local` confirming it resolved to `192.168.50.10`
+**2. Verify domain DNS resolution using** `nslookup lab.local` confirming it resolves to `192.168.50.10`
 
 <details>
 <summary>View Screenshot</summary>
@@ -27,7 +27,7 @@ ___
 
 ___
 
-**3. Created user within OU hierarchy in ADUC** : `Corp` -> `Users` -> `Luke Skywalker`
+**3. Create user within OU hierarchy in ADUC** : `Corp` -> `Users` -> `Luke Skywalker`
 
 <details>
 <summary>View Screenshot</summary>
@@ -39,7 +39,7 @@ ___
 
 ___
 
-**4. Renamed client machine to** `WIN10-PRO` **and joined it to the** `lab.local` **domain** 
+**4. Rename client machine to** `WIN10-PRO` **and join it to the** `lab.local` **domain** 
 
 <details>
 <summary>View Screenshot</summary>
@@ -51,7 +51,7 @@ ___
 
 ___
 
-**5. Moved the automatically generated** `WIN10-PRO` **computer object** from the default `Computers` container into `Corp` -> `Workstations`
+**5. Move the automatically generated** `WIN10-PRO` **computer object** from the default `Computers` container into `Corp` -> `Workstations` (standard enterprise practice)
 
 <details>
 <summary>View Screenshot</summary>
@@ -76,7 +76,7 @@ ___
 
 ___
 
-**7. Created another domain user** `Han Solo` (`hsolo`) inside `Corp` -> `Users`
+**7. Create another domain user** `Han Solo` (`hsolo`) inside `Corp` -> `Users`
 <details>
 <summary>View Screenshot</summary>
 <br />

@@ -1,11 +1,11 @@
 # Module 1: Core Infrastructure & Domain Controller Setup
 
-On WMware Fusion, I installed two VMs - Windows Server 2022 and Windows 10 Pro - in order to emulate a mini enterprise environment.
+On WMware Fusion, install two VMs - Windows Server 2022 and Windows 10 Pro - in order to emulate a mini enterprise environment.
 
 
 ## Overview
 
-**1. Set the** `TCP/IPv4` **properties on Windows Server :** Assigned a static IP address (`192.168.50.10`), a Subnet mask of `255.255.255.0` and a DNS address pointing to the machine itself (`127.0.0.1`), so that the server VM could resolve incoming DNS requests from the client VM 
+**1. Set the** `TCP/IPv4` **properties on Windows Server :** Assign a static IP address (`192.168.50.10`), a Subnet mask of `255.255.255.0` and a DNS address pointing to the machine itself (`127.0.0.1`), so that the server VM can resolve incoming DNS requests from the client VM 
 <details>
 <summary>View Screenshot</summary>
 <br />
@@ -16,7 +16,7 @@ On WMware Fusion, I installed two VMs - Windows Server 2022 and Windows 10 Pro -
 
 ---
 
-**2. Added the Active Directory Domain Services** server role via Server Manager
+**2. Add the Active Directory Domain Services** server role via Server Manager
 
 <details>
 <summary>View Screenshot</summary>
@@ -29,7 +29,7 @@ On WMware Fusion, I installed two VMs - Windows Server 2022 and Windows 10 Pro -
 ___
 
 
-**3. Promoted the server to create a new forest named** `lab.local`
+**3. Promote the server to create a new forest named** `lab.local`
 
 <details>
 <summary>View Screenshot</summary>
@@ -41,7 +41,7 @@ ___
 
 ___
 
-**4. Installed Active Directory Domain Services (AD DS)** which installs DNS functionality by default
+**4. Install Active Directory Domain Services (AD DS)** which installs DNS functionality by default
 
 <details>
 <summary>View Screenshot</summary>
@@ -53,7 +53,7 @@ ___
 
 ___
 
-**5. Renamed server to** `DC-01` **to follow good naming conventions** (and replace the standard ugly name)
+**5. If not done on install, rename server to** `DC-01` **to follow good naming conventions** (and replace the standard ugly name)
 
 <details>
 <summary>View Screenshot</summary>
@@ -65,7 +65,7 @@ ___
 
 ___
 
-**6. Checked if core services were running correctly after rebooting**
+**6. Check if core services were running correctly after rebooting**
 
 <details>
 <summary>View Screenshot</summary>
@@ -77,7 +77,7 @@ ___
 
 ___
 
-**7. Tested DNS resolution on newly configured server**
+**7. Test DNS resolution on newly configured server**
 
 <details>
 <summary>View Screenshot</summary>

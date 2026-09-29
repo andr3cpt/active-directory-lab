@@ -1,9 +1,9 @@
 # Module 3: User Lockout Management
-Implemented a standard security policy to lock the user out if they attempt to enter a password too many times. 
+Implement a standard security policy to lock the user out if they attempt to enter a password too many times. 
 
 ## Overview
 
-**1. In the Group Policy Management Editor** I set an account **lockout threshold** of 3 attempts, after which the user is locked out and can only be unlocked by the admin
+**1. In the Group Policy Management Editor**: Set an account **lockout threshold** of 3 attempts, after which the user is locked out and can only be unlocked by the admin
 <details>
 <summary>View Screenshot</summary>
 <br />
@@ -14,7 +14,7 @@ Implemented a standard security policy to lock the user out if they attempt to e
 
 ___
 
-**2. On the CLI, I made sure to update the server machine so that the new policy can take effect...** (and to skip the necessary reboot)
+**2. On the CLI, make sure to update the server machine so that the new policy can take effect...**
 
 <details>
 <summary>View Screenshot</summary>
@@ -38,7 +38,7 @@ ___
 
 ___
 
-**4. Entered wrong password enough times to trigger the lockout for the user** `hsolo`
+**4. Enter wrong password enough times to trigger the lockout for the user** `hsolo`
 
 <details>
 <summary>View Screenshot</summary>
@@ -50,7 +50,7 @@ ___
 
 ___
 
-**5. Unlocked the user** `hsolo` **from the ADUC dashboard**
+**5. Unlock the user** `hsolo` **from the ADUC dashboard**
 
 <details>
 <summary>View Screenshot</summary>

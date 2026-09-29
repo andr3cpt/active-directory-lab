@@ -1,9 +1,9 @@
 # Module 4: Password Policy and Delegation
-Delegated password reset capabilities to the Helpdesk group. Domain password policies were configured via the **Default Domain Policy** at the domain root. Implementing advanced, granular rules remains outside the scope of this lab.
+Delegate password reset capabilities to the Helpdesk group. Domain password policies are configured via the **Default Domain Policy** at the domain root. Implementing advanced, granular rules remains outside the scope of this lab.
 
 ## Overview
 
-**1. Configured Domain Password Policy**: Navigated to `Default Domain Policy` → `Account Policies` → `Password Policy` in GPMC to set a maximum password age...
+**1. Configure Domain Password Policy**: Navigate to `Default Domain Policy` → `Account Policies` → `Password Policy` in GPMC to set a maximum password age...
 
 <details>
 <summary>View Screenshot</summary>
@@ -29,7 +29,7 @@ ___
 ___
 
 
-**3. Attempted to assign a non-compliant password** to newly created user `lorgana`
+**3. Attempt to assign a non-compliant password** to newly created user `lorgana`
 
 <details>
 <summary>View Screenshot</summary>
@@ -41,7 +41,7 @@ ___
 
 ___
 
-**4. Created new Security Groups** and assigned members to each:
+**4. Create new Security Groups** and assign members to each:
 - `lskywalker` to `SG-Finance-RW`
 - `lorgana` to `SG-Helpdesk-RW`
 - `hsolo` to `SG-IT-RW`
@@ -57,7 +57,7 @@ ___
 
 ___
 
-**5. Executed the Delegation of Control Wizard** on the `Corp/Users` OU
+**5. Execute the Delegation of Control Wizard** on the `Corp/Users` OU
 
 <details>
 <summary>View Screenshot</summary>
@@ -69,7 +69,7 @@ ___
 
 ___
 
-**6. Granted** `SG-Helpdesk-RW` **permission to reset user passwords and force changes at next logon**
+**6. Grant** `SG-Helpdesk-RW` **permission to reset user passwords and force changes at next logon**
 
 <details>
 <summary>View Screenshot</summary>
@@ -82,7 +82,7 @@ ___
 ___
 
 
-**7. Enabled Advanced Features in ADUC to verify explicit** `Reset password` **rights** under `Corp/Users` -> `Properties`-> `Security`
+**7. Enable Advanced Features in ADUC to verify explicit** `Reset password` **rights** under `Corp/Users` -> `Properties`-> `Security`
 <details>
 <summary>View Screenshot</summary>
 <br />

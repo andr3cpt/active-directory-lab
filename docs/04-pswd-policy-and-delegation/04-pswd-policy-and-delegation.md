@@ -3,7 +3,7 @@ Delegate password reset capabilities to the Helpdesk group. Domain password poli
 
 ## Overview
 
-**1. Configure Domain Password Policy**: Navigate to `Default Domain Policy` → `Account Policies` → `Password Policy` in GPMC to set a maximum password age...
+**1. Configure Domain Password Policy**: On the Group Policy Management Editor, navigate to `Default Domain Policy` → `Account Policies` → `Password Policy` in GPMC to set a maximum password age...
 
 <details>
 <summary>View Screenshot</summary>
@@ -82,7 +82,7 @@ ___
 ___
 
 
-**7. Enable Advanced Features in ADUC to verify explicit** `Reset password` **rights** under `Corp/Users` -> `Properties`-> `Security`
+**7. Enable Advanced Features in ADUC to verify explicit** `Reset password` **rights** under `Corp/Users` → `Properties` → `Security`
 <details>
 <summary>View Screenshot</summary>
 <br />

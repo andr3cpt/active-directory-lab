@@ -27,7 +27,7 @@ ___
 
 ___
 
-**3. Create user within OU hierarchy in ADUC** : `Corp` -> `Users` -> `Luke Skywalker`
+**3. Create user within OU hierarchy in ADUC** : `Corp` → `Users` → `Luke Skywalker`
 
 <details>
 <summary>View Screenshot</summary>
@@ -51,7 +51,7 @@ ___
 
 ___
 
-**5. Move the automatically generated** `WIN10-PRO` **computer object** from the default `Computers` container into `Corp` -> `Workstations` (standard enterprise practice)
+**5. Move the automatically generated** `WIN10-PRO` **computer object** from the default `Computers` container into `Corp` → `Workstations` (standard enterprise practice)
 
 <details>
 <summary>View Screenshot</summary>
@@ -76,7 +76,7 @@ ___
 
 ___
 
-**7. Create another domain user** `Han Solo` (`hsolo`) inside `Corp` -> `Users`
+**7. Create another domain user** `Han Solo` (`hsolo`) inside `Corp` → `Users`
 <details>
 <summary>View Screenshot</summary>
 <br />

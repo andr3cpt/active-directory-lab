@@ -1,4 +1,4 @@
-# Module 1: Core Infrastructure & Domain Controller Setup
+# Module 1: Core Infrastructure and Domain Controller Setup
 
 On WMware Fusion, install two VMs - Windows Server 2022 and Windows 10 Pro - in order to emulate a mini enterprise environment.
 

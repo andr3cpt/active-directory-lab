@@ -19,3 +19,4 @@ A hands-on systems administration lab focused on deploying, managing, and securi
 * [Module 4: Password Policy and Delegation](docs/04-pswd-policy-and-delegation/04-pswd-policy-and-delegation.md)
 * [Module 5: Shares and Permissions](docs/05-shares-and-permissions/05-shares-and-permissions.md)
 * [Module 6: Drive Mapping](docs/06-drive-mapping/06-drive-mapping.md)
+* [Module 7: Enterprise Group Policy & Workstation Hardening](docs/07-GPO-workstation-hardening/07-GPO-workstation-hardening.md)

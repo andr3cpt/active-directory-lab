@@ -48,7 +48,11 @@ ___
 ___
 
 
-**4. While logged on as a domain user, try opening the command prompt...**
+**4. Remote policy refresh from** `DC-01` **and verification**:
+- On the `Group Policy Management Console`: Expand the domain → right-click `Workstations` OU → `Group Policy Update...`
+- Click `Yes` to force a refresh on all computers in that OU across the network
+- Attempt to launch `cmd.exe` as a domain user (e.g. `hsolo`)
+- Attempt to open `Control Panel` or `System Settings`
 
 <details>
 <summary>View Screenshot</summary>
@@ -56,19 +60,7 @@ ___
 <p align="center">
   <img src="assets/04-command-prompt-disabled.png" alt="command prompt disabled" width="600" />
 </p>
-</details>
-
-___
-
-
-**5. ...as well as the Control Panel**:
-
-<details>
-<summary>View Screenshot</summary>
-<br />
 <p align="center">
   <img src="assets/05-control-panel-restriction-error.png" alt="control panel restriction error" width="600" />
 </p>
 </details>
-
-___

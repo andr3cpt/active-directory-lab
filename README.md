@@ -5,18 +5,23 @@ A hands-on systems administration lab focused on deploying, managing, and securi
 
 ## Lab Setup
 
-* **Environment:** VMware Fusion
-* **Domain Controller (`DC-01`):** Windows Server 2022 | `192.168.50.10`
-* **Client Workstation (`WIN10-PRO`):** Windows 10 Pro | `192.168.50.20`
-* **Domain Name:** `lab.local`
+| Item | Details |
+| :--- | :--- |
+| **Environment** | VMware Fusion on macOS |
+| **Domain Controller (`DC-01`)** | Windows Server 2022 |
+| **Client Workstation (`WIN10-PRO`)** | Windows 10 Pro |
+| **Domain Name** | `lab.local` |
 
 
 ## Modules
 
-* [Module 1: Core Infrastructure and Domain Controller Setup](docs/01-dc-setup/01-dc-setup.md)
-* [Module 2: User Creation and Joining](docs/02-user-creation-and-joining/02-user-creation-and-joining.md)
-* [Module 3: User Lockout Management](docs/03-user-lockout-management/03-user-lockout-management.md)
-* [Module 4: Password Policy and Delegation](docs/04-pswd-policy-and-delegation/04-pswd-policy-and-delegation.md)
-* [Module 5: Shares and Permissions](docs/05-shares-and-permissions/05-shares-and-permissions.md)
-* [Module 6: Drive Mapping](docs/06-drive-mapping/06-drive-mapping.md)
-* [Module 7: Enterprise Group Policy & Workstation Hardening](docs/07-GPO-workstation-hardening/07-GPO-workstation-hardening.md)
+| Module | Details |
+| :--- | :--- |
+| **1** | [Core Infrastructure and Domain Controller Setup](docs/01-dc-setup/01-dc-setup.md) |
+| **2** | [User Creation and Joining](docs/02-user-creation-and-joining/02-user-creation-and-joining.md)|
+| **3** | [User Lockout Management](docs/03-user-lockout-management/03-user-lockout-management.md) |
+| **4** | [Password Policy and Delegation](docs/04-pswd-policy-and-delegation/04-pswd-policy-and-delegation.md) |
+| **5** | [Shares and Permissions](docs/05-shares-and-permissions/05-shares-and-permissions.md) |
+| **6** | [Drive Mapping](docs/06-drive-mapping/06-drive-mapping.md) |
+| **7** | [Enterprise Group Policy & Workstation Hardening](docs/07-GPO-workstation-hardening/07-GPO-workstation-hardening.md) |
+

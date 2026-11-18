@@ -65,13 +65,13 @@ ___
   - Run `Unlock-ADAccount -Identity "hsolo"`
 
 <details>
-<summary>View Screenshot</summary>
+<summary>View Screenshots</summary>
 <br />
 <p align="center">
-  <img src="assets/05-user-unlock.png" alt="ADUC-user-unlock" width="600" />
+  <img src="assets/05a-user-unlock.png" alt="ADUC-user-unlock" width="600" />
 </p>
 <p align="center">
-  <img src="assets/06-powershell-user-unlock.png" alt="powershell user unlock" width="600" />
+  <img src="assets/05b-powershell-user-unlock.png" alt="powershell user unlock" width="600" />
 </p>
 </details>
 

@@ -55,12 +55,12 @@ ___
 - Attempt to open `Control Panel` or `System Settings`
 
 <details>
-<summary>View Screenshot</summary>
+<summary>View Screenshots</summary>
 <br />
 <p align="center">
-  <img src="assets/04-command-prompt-disabled.png" alt="command prompt disabled" width="600" />
+  <img src="assets/04a-command-prompt-disabled.png" alt="command prompt disabled" width="600" />
 </p>
 <p align="center">
-  <img src="assets/05-control-panel-restriction-error.png" alt="control panel restriction error" width="600" />
+  <img src="assets/04b-control-panel-restriction-error.png" alt="control panel restriction error" width="600" />
 </p>
 </details>

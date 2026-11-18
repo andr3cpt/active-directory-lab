@@ -31,7 +31,7 @@ On WMware Fusion, install two VMs - Windows Server 2022 and Windows 10 Pro - in 
 - On the `Confirmation` tab, click `Install`
 
 <details>
-<summary>View Screenshot</summary>
+<summary>View Screenshots</summary>
 <br />
 <p align="center">
   <img src="assets/02a-ADDS-server-role.png" alt="add AD DS server role" width="600" />

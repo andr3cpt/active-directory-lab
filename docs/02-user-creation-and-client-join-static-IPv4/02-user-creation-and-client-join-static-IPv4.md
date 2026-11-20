@@ -1,4 +1,4 @@
-# Module 2: User Creation and Joining
+# Module 2: User Creation and Client Join (static IPv4)
 Create users in custom OUs and join the Windows 10 Pro VM to the `lab.local` domain by maually configuring its IPv4 settings.
 
 

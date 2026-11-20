@@ -1,4 +1,4 @@
-# Module 7: Enterprise Group Policy & Workstation Hardening
+# Module 7: Group Policy and Workstation Hardening
 Use Group Policy Objects (GPOs) to lock down domain-joined Windows 10 endpoints by restricting access to administrative settings.
 
 ## Overview

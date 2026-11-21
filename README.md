@@ -1,18 +1,21 @@
 # Active Directory Home Lab
 
-A system administration lab focused on deploying, managing, and securing a Windows Server Active Directory environment using both GUI tools and PowerShell.<br />
+A system administration lab focused on deploying, managing, and securing a Windows Server Active Directory environment using both GUI and CLI tools.<br />
+
 
 
 ## Lab Setup
 
-| Item | Details |
+| Item | Details | 
 | :--- | :--- |
 | **Environment** | VMware Fusion on macOS |
 | **Domain Controller (`DC-01`)** | Windows Server 2022 |
-| **Client VMs (`WIN10-PRO`, `WIN-DHCP`)** | Windows 10 Pro |
+| **Client VMs** | `WIN10-PRO` (Windows 10 Pro), `WIN-DHCP` (Windows 10 Pro), `ZORINOS` (ZorinOS) |
 | **Domain Name** | `lab.local` |
 
-`WIN10-PRO` is joined to `lab-local` via static IP; `WIN-DHCP` is joined to the domain via a DHCP lease by the domain.
+`WIN10-PRO` is joined to `lab-local` with a static IP assignment.<br />
+`WIN-DHCP` is joined to `lab.local` via a DHCP lease.<br />
+`ZORINOS` is joined to `lab.local` via `sssd` and `realmd` (Linux tools).<br />
 
 
 ## Modules
@@ -27,4 +30,5 @@ A system administration lab focused on deploying, managing, and securing a Windo
 | **6** | [Drive Mapping](docs/06-drive-mapping/06-drive-mapping.md) |
 | **7** | [Group Policy and Workstation Hardening](docs/07-GPO-workstation-hardening/07-GPO-workstation-hardening.md) |
 | **8** | [DHCP Configuration and Client Join (DHCP lease)](docs/08-DHCP-config-and-join-lease/08-DHCP-config-and-join-lease.md) |
+| **9** | [Linux Client Join (via SSSD and realmd)](docs/09-linux-sssd-realm-join/09-linux-sssd-realm-join.md) |
 
